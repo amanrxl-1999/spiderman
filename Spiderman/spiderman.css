@@ -1,0 +1,141 @@
+body{
+    
+    background-color:antiquewhite;
+    padding-bottom: 30px;
+    background-color:  bisque;
+    
+}
+
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    
+    
+}
+.carousel{
+    height: 500px;
+
+/*    margin-top: 23px;*/
+
+    z-index: 5;
+
+}
+.carousel-inner > .carousel-item > img{
+    
+    height: 500px;
+    max-width: 100%;
+    top: 0;
+    
+}
+.carousel .item{
+    height: 500px;
+    background-color:black;
+    
+}
+.navbar-wrapper .container{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: auto;
+}
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+
+.navbar-wrapper .navbar{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.row{
+    text-align: center;
+}
+#teamhead{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px; 
+}
+.team .col-lg-4{
+    text-align: center;
+    
+}
+.divider{
+    margin:50px 0px; 
+}
+.col-lg-5 >img{
+   padding:20px;
+    width:500px;
+    height:600px;
+    padding-top: 0px;
+     
+    
+}
+.col-lg-7 >img{
+    padding:20px;
+    width:500px;
+    height:600px;
+    padding-top: 0px;
+    padding-left:0px; 
+    margin-right: 0px;
+
+    
+}
+.col-lg-7 {
+    margin-right: 0px;
+    margin-left:0px;
+    padding-top:30px; 
+}
+.col-lg-5{
+    padding-top:30px; 
+}
+.m1{
+    padding-top: 100px
+}
+footer{
+    margin: 50px 0px;
+    margin-bottom:5px; 
+ 
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    position: relative;
+/*    background-image:url(image/spidy1.jpeg);*/
+    opacity:0.70;
+    background-attachment: fixed;
+    text-align: center;
+    color: firebrick;
+    background-size: cover;
+    padding-top:130px;
+    
+}
+.map{
+    padding: 200px;
+height: 300px;
+    width: 300px;
+    padding-top:0px; 
+    margin-right: 0px;
+    margin-left:0px; 
+ bottom: 20px;
+    right:44px 
+}
+.contact{
+    padding: 20px;
+ height: 300px;
+width: auto;
+background: rgba(225,225,225,0.2);
+    box-shadow: 0 0px 15px rgba(0,0,0,0.5);
+    background: transparent;
+}
+/*
+.bgi{
+    background-image: url(image/spidylogo.png); 
+}*/
+.copyright{
+ padding-top: 40px;
+    left: 20px;
+    right: 20px;
+}
